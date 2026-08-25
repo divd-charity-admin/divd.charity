@@ -36,12 +36,12 @@ header{
     /* align-items: left; */
     /* margin-right: 400px; */
     font-family: 'Arial Rounded MT';
-    src: url('/fonts/ArialRoundedMTBold.eot');
-    src: url('/fonts/ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/ArialRoundedMTBold.woff2') format('woff2'),
-        url('/fonts/ArialRoundedMTBold.woff') format('woff'),
-        url('/fonts/ArialRoundedMTBold.ttf') format('truetype'),
-        url('/fonts/ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
+    src: url('../fonts/ArialRoundedMTBold.eot');
+    src: url('../fonts/ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ArialRoundedMTBold.woff2') format('woff2'),
+        url('../fonts/ArialRoundedMTBold.woff') format('woff'),
+        url('../fonts/ArialRoundedMTBold.ttf') format('truetype'),
+        url('../fonts/ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
 
 }
 

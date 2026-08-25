@@ -1,173 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/x-icon" href="/image/favicon.ico" />
-  <title>DIVD.CHARITY</title>
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="/css/style.css">
-
+  <meta
+    name="description"
+    content="DIVD.Charity supports education, mentorship, and community-led development to empower people with practical opportunities and long-term impact."
+  />
+  <meta name="theme-color" content="#ffd736" />
+  <meta property="og:title" content="DIVD.Charity" />
+  <meta
+    property="og:description"
+    content="Empowering people through education, economic opportunity, mentorship, and community development."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://divd.charity/" />
+  <meta property="og:image" content="https://divd.charity/img/charity-logo.svg" />
+  <link rel="canonical" href="https://divd.charity/" />
+  <link rel="icon" type="image/x-icon" href="./image/favicon.ico" />
+  <link rel="manifest" href="./site.webmanifest" />
+  <title>DIVD.Charity | Community empowerment</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "DIVD.Charity",
+      "url": "https://divd.charity",
+      "logo": "https://divd.charity/img/charity-logo.svg",
+      "sameAs": [
+        "https://www.linkedin.com/company/divd-charity",
+        "https://twitter.com/DIVD_charity"
+      ],
+      "description": "DIVD.Charity supports education, mentorship, entrepreneurship and public-benefit community development."
+    }
+  </script>
 </head>
 
-<body class="bg-black text-white">
-  <!-- Hero Section -->
-  <section class="bg-black text-white py-20 px-6">
-    <div class="container mx-auto text-center">
-      <div class="flex flex-col items-center justify-center mb-6 md:flex-row md:space-x-4">
-        <img src="/img/charity-logo.svg" alt="DIVD Logo" class="h-16 w-auto mb-4 md:mb-0">
-        <h1 class="text-4xl md:text-6xl font-bold" style="color: #ffd736;">DIVD.Charity</h1>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="./" aria-label="DIVD.Charity home">
+        <img src="./img/charity-logo.svg" alt="" aria-hidden="true" />
+        <span>DIVD.Charity</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#purpose">Purpose</a>
+        <a href="#projects">Projects</a>
+        <a href="#impact">Impact</a>
+        <a href="#principles">Principles</a>
+        <a href="#team">Team</a>
+        <a href="#news">News</a>
+      </nav>
+
+      <div class="lang-switch" aria-label="Language switcher">
+        <a href="./" aria-current="page">EN</a>
+        <a href="./nl/">NL</a>
       </div>
-      <p class="text-lg md:text-2xl mb-8 max-w-3xl mx-auto">
-        True charity is the desire to be useful to others with no thought of recompense.
-      </p>
-      <a href="https://form.jotform.com/223632784419361" class="inline-block bg-yellow-400 text-black font-semibold py-3 px-6 rounded-full shadow-md hover:bg-yellow-300 transition">
+
+      <a
+        class="button button-primary"
+        href="https://form.jotform.com/223632784419361"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Participate in DIVD Charity"
+      >
         Participate
       </a>
     </div>
-  </section>
-
-  <!-- Navigation -->
-  <header class="bg-black py-4">
-    <nav class="container mx-auto flex justify-between items-center px-4">
-      <ul class="flex space-x-6" >
-        <li><a href="#purpose" class="hover:text-yellow-400" style="color: #ffd736;">Purpose</a></li>
-        <li><a href="#projects" class="hover:text-yellow-400" style="color: #ffd736;">Projects</a></li>
-        <li><a href="#people" class="hover:text-yellow-400" style="color: #ffd736;">People</a></li>
-        <li><a href="#principles" class="hover:text-yellow-400" style="color: #ffd736;">Principles</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <!-- Purpose Section -->
-  <section id="purpose" class="py-16">
-    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8">
-      <div class="bg-yellow-400 text-black p-6 rounded-xl shadow-md">
-        <h2 class="text-2xl font-bold mb-4">Purpose</h2>
-        <ul class="list-disc list-inside space-y-2">
-          <li>Mentorship and Guidance for Personal Development.</li>
-          <li>Economic Empowerment and Community Development.</li>
-          <li>Empowerment through Education and Skill Development.</li>
-        </ul>
-      </div>
-      <div class="bg-gray-900 p-6 rounded-xl shadow-md">
-        <h3 class="text-xl font-semibold mb-4">People</h3>
-        <p>
-          DIVD Charity is an organization that supports projects and initiatives that benefit the public welfare and the creation of promising programs that contribute to the vision of DIVD Charity. We want to help everyone develop their talents so that they will have a positive social impact through their participation.
-        </p>
-        <div class="mt-6">
-          <a href="https://form.jotform.com/223632784419361" class="inline-block bg-yellow-400 text-black font-semibold py-2 px-4 rounded shadow hover:bg-yellow-300">Participate</a>
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Community-led development</p>
+          <h1>True charity is the desire to be useful to others with no thought of recompense.</h1>
+          <p class="lede">
+            DIVD.Charity helps individuals and communities unlock education, mentorship, access to economic
+            opportunity, and practical support that builds lasting progress.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="button button-primary"
+              href="https://form.jotform.com/223632784419361"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Participate
+            </a>
+            <a class="button button-secondary" href="#projects">Explore our work</a>
+          </div>
         </div>
+
+        <aside class="hero-panel" aria-label="DIVD Charity highlights">
+          <div class="panel-stat">
+            <strong>3</strong>
+            <span>core pillars</span>
+          </div>
+          <div class="panel-stat">
+            <strong>Education</strong>
+            <span>access and digital skills</span>
+          </div>
+          <div class="panel-stat">
+            <strong>Mentorship</strong>
+            <span>guidance and growth</span>
+          </div>
+        </aside>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-<!-- News section-->
-
-
-<section class="bg-black text-white py-20 px-6">
-    <div class="container mx-auto text-left">
-       <div id="substack-feed-embed"></div>
-        <script>
-            window.SubstackFeedWidget = {
-                substackUrl: "divdcharity.substack.com",
-                posts: 3,
-                layout: "right",
-                hidden: ["author", "reactions", "comments"],
-                colors: {
-                primary: "#FFD736",
-                secondary: "#FFFFFF0",
-                background: "#000000",
-                }
-            };
-            </script>
-            <script src="https://substackapi.com/embeds/feed.js" async></script>
-            
-            <br />
-            <div class="container mx-auto text-center">
-            <div id="custom-substack-embed"></div>
-
-
-            <script>
-              window.CustomSubstackWidget = {
-                substackUrl: "divdcharity.substack.com",
-                placeholder: "example@gmail.com",
-                buttonText: "Subscribe",
-                theme: "custom",
-                colors: {
-                  primary: "#FFD736",
-                  input: "#000000",
-                  email: "#FFFFFF",
-                  text: "#000000",
-                },
-            
-                // Go to substackapi.com to unlock custom redirect
-            
-              };
-            </script>
-            <script src="https://substackapi.com/widget.js" async></script>
-            </div>
-
-        </div>
-</section>
-
-
-
-
-<!-- end of News section-->
-
-  <!-- Projects & Principles Section -->
-  <section id="projects" class="py-16">
-    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8">
-      <div class="bg-gray-900 p-6 rounded-xl shadow-md">
-        <h2 class="text-2xl font-bold mb-4">Projects</h2>
-        <p>
-          DIVD.charity, in dynamic collaboration with DIVD.Academy and DIVD.Fund, spearheads a transformative initiative to uplift underserved communities. Through the establishment of Community Education Centers powered by DIVD.Academy, the aim is to provide comprehensive access to education, vocational training, and digital literacy programs. Partnering with DIVD.Fund launching a microfinance program supporting aspiring entrepreneurs with accessible loans, invaluable mentorship, and dedicated business development support. Additionally, the creation of an online mentorship platform connects professionals with individuals eager for guidance. These efforts ignite progress and opportunity.
-        </p>
+    <section id="purpose" class="section section-contrast">
+      <div class="container section-head">
+        <p class="eyebrow">Purpose</p>
+        <h2>Building opportunity with people at the centre</h2>
       </div>
-      <div>
-        <div class="bg-yellow-400 text-black p-6 rounded-xl shadow-md mb-6">
-          <h2 class="text-2xl font-bold mb-4">Principles</h2>
-          <ul class="list-disc list-inside space-y-2">
-            <li>Empowerment and Inclusivity</li>
-            <li>Collaborative Engagement</li>
-            <li>Continuous Improvement</li>
+
+      <div class="container cards-grid two-up">
+        <article class="info-card accent-card">
+          <h3>Our purpose</h3>
+          <ul>
+            <li>Mentorship and guidance for personal development.</li>
+            <li>Economic empowerment and community development.</li>
+            <li>Education and skill building for long-term resilience.</li>
           </ul>
+        </article>
+
+        <article class="info-card dark-card">
+          <h3>People</h3>
+          <p>
+            DIVD.Charity supports projects and initiatives that improve public welfare and create promising
+            pathways for personal growth. We help people develop their talents so that they can contribute
+            positively to their communities and society at large.
+          </p>
+          <div class="card-actions">
+            <a
+              class="button button-primary"
+              href="https://form.jotform.com/223632784419361"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Participate
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="impact" class="section">
+      <div class="container section-head">
+        <p class="eyebrow">Impact</p>
+        <h2>How we create progress</h2>
+      </div>
+
+      <div class="container impact-grid">
+        <article class="feature-card">
+          <h3>Education</h3>
+          <p>Community learning centres, digital literacy, and skills programmes designed for inclusion.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Entrepreneurship</h3>
+          <p>Support for aspiring founders through small-scale funding, mentoring, and practical guidance.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Mentorship</h3>
+          <p>Connecting professionals and learners so ambition becomes action through trusted guidance.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-dark">
+      <div class="container cards-grid two-up">
+        <article class="info-card dark-card projects-card">
+          <p class="eyebrow">Projects</p>
+          <h2>Connected initiatives for sustainable change</h2>
+          <p>
+            DIVD.Charity collaborates with DIVD.Academy and DIVD.Fund to create a stronger ecosystem for community
+            development. Community education centres expand access to learning and vocational training, while our
+            microfinance support helps entrepreneurs with accessible funding, mentorship, and business guidance.
+            An online mentorship platform also connects professionals and learners who are ready to grow.
+          </p>
+        </article>
+
+        <article id="principles" class="info-card accent-card principles-card">
+          <p class="eyebrow">Principles</p>
+          <h2>What guides us</h2>
+          <ul>
+            <li>Empowerment and inclusivity</li>
+            <li>Collaborative engagement</li>
+            <li>Continuous improvement</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="news" class="section section-news">
+      <div class="container">
+        <div class="section-head left-aligned">
+          <p class="eyebrow">News & updates</p>
+          <h2>Latest stories from DIVD.Charity</h2>
+        </div>
+
+        <div id="substack-feed-embed" class="substack-feed" aria-label="Substack updates feed"></div>
+        <script>
+          (function () {
+            const root = document.getElementById('substack-feed-embed');
+            if (!root) return;
+
+            function escapeHtml(value) {
+              return String(value || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/\"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+            }
+
+            function stripHtml(value) {
+              return String(value || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+            }
+
+            const feedUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent('https://divdcharity.substack.com/feed');
+
+            fetch(feedUrl)
+              .then(function (response) {
+                if (!response.ok) throw new Error('Substack feed unavailable');
+                return response.json();
+              })
+              .then(function (data) {
+                const posts = Array.isArray(data && data.items) ? data.items.slice(0, 3) : [];
+
+                if (!posts.length) {
+                  throw new Error('No Substack posts available');
+                }
+
+                root.innerHTML = posts.map(function (post) {
+                  const title = post.title || 'DIVD.Charity update';
+                  const link = post.link || 'https://divdcharity.substack.com';
+                  const image = post.thumbnail || (post.enclosure && post.enclosure.link) || '';
+                  const description = stripHtml(post.description || post.content || 'Read the latest update from DIVD.Charity.');
+                  const date = post.pubDate ? new Date(post.pubDate).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) : '';
+
+                  return '<article class="substack-post">' +
+                    '<a href="' + escapeHtml(link) + '" target="_blank" rel="noopener noreferrer">' +
+                    (image ? '<img src="' + escapeHtml(image) + '" alt="' + escapeHtml(title) + '" loading="lazy" />' : '') +
+                    '<div class="substack-post-body">' +
+                    (date ? '<span class="substack-date">' + escapeHtml(date) + '</span>' : '') +
+                    '<h3>' + escapeHtml(title) + '</h3>' +
+                    '<p>' + escapeHtml(description.length > 170 ? description.slice(0, 170) + '…' : description || 'Read the latest update from DIVD.Charity.') + '</p>' +
+                    '</div>' +
+                    '</a>' +
+                    '</article>';
+                }).join('');
+              })
+              .catch(function () {
+                root.innerHTML = '<div class="substack-post"><div class="substack-post-body"><p>Unable to load the latest news right now. Visit <a href="https://divdcharity.substack.com" target="_blank" rel="noopener noreferrer">divdcharity.substack.com</a> for the latest updates.</p></div></div>';
+              });
+          })();
+        </script>
+
+        <div class="subscribe-wrap">
+          <a class="button button-primary" href="https://divdcharity.substack.com" target="_blank" rel="noopener noreferrer">Read the Substack</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-black text-white py-10">
-    <div class="container mx-auto px-4 grid md:grid-cols-3 gap-8">
-      <div>
-        <img src="/img/charity-logo.svg" alt="Logo" class="h-10" />
-        <!-- ANBI -->
-        <h2 id="anbi"><img src="images/ANBI_FC.png" width="100"></h2>
-        <ul role="list">
-            <li><a target="_blank" rel="noopener noreferrer" href="https://openkvk.nl/company/stichting-stichting-divdcharity-85411310">Stichting DIVD.Charity</a></li>
-            <li>RSIN: 863614516</li
+    <section id="team" class="section section-contrast">
+      <div class="container section-head">
+        <p class="eyebrow">Team</p>
+        <h2>People who guide the mission</h2>
+      </div>
+
+      <div class="container cards-grid two-up">
+        <article class="info-card dark-card">
+          <p class="eyebrow">Leadership</p>
+          <h2>Board and oversight</h2>
+          <p>Leadership responsibilities include setting strategic direction, ensuring compliance, supporting public accountability, and making sure programme delivery remains aligned with the charity’s mission.</p>
+        </article>
+
+        <article class="info-card accent-card">
+          <p class="eyebrow">Volunteers</p>
+          <h2>Operational support</h2>
+          <ul>
+            <li>Programme coordination and partnerships</li>
+            <li>Community engagement and education</li>
+            <li>Communications and transparency</li>
+            <li>Operational support for the wider DIVD network</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-branding">
+        <div class="footer-logo-wrap">
+          <img src="./img/charity-logo.svg" alt="DIVD.Charity logo" />
+        </div>
+        <div class="anbi-mark" aria-label="ANBI registratie-logo / ANBI registration logo">
+          <img src="./images/ANBI_FC.png" alt="ANBI registratie mark / ANBI registration mark" />
+        </div>
+        <ul class="footer-list">
+          <li>
+            <a href="https://openkvk.nl/company/stichting-stichting-divdcharity-85411310" target="_blank" rel="noopener noreferrer">
+              Stichting DIVD.Charity
+            </a>
+          </li>
+          <li>RSIN: 863614516</li>
+          <li><a href="./anbi/">ANBI transparantiesite / ANBI transparency portal</a></li>
         </ul>
       </div>
-      <div>
-        <h3 class="text-lg font-semibold mb-2">Office</h3>
-        <p>Maanweg 174<br />
+
+      <div class="footer-block">
+        <h3>Office</h3>
+        <p>
+          Maanweg 174<br />
           2516 AB Den Haag<br />
-          Tel.: (+31) 70 41 90 309</p>
+          Tel.: (+31) 70 41 90 309
+        </p>
       </div>
-      <div>
-        <h3 class="text-lg font-semibold mb-2">Connect</h3>
-        <ul class="space-y-2">
-          <li><a href="https://www.linkedin.com/company/divd-charity" target="_blank" class="text-yellow-400 hover:underline">LinkedIn</a></li>
-          <li><a href="https://twitter.com/DIVD_charity" target="_blank" class="text-yellow-400 hover:underline">Twitter</a></li>
+
+      <div class="footer-block">
+        <h3>Connect</h3>
+        <ul class="footer-list social-list">
+          <li>
+            <a href="https://www.linkedin.com/company/divd-charity" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/DIVD_charity" target="_blank" rel="noopener noreferrer">Twitter</a>
+          </li>
         </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 DIVD.Charity. All rights reserved.</p>
       </div>
     </div>
   </footer>
 </body>
-
 </html>
