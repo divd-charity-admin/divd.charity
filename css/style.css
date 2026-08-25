@@ -314,6 +314,74 @@ input {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.org-chart {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.org-level {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.org-connector {
+  position: relative;
+  height: 2.5rem;
+}
+
+.org-connector::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(255, 215, 54, 0.25), rgba(255, 215, 54, 0.9));
+}
+
+.org-node {
+  min-width: min(220px, 100%);
+  padding: 1.1rem 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 215, 54, 0.25);
+  background: rgba(255, 255, 255, 0.02);
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.org-node-board {
+  background: linear-gradient(180deg, rgba(255, 215, 54, 0.14), rgba(255, 255, 255, 0.02));
+}
+
+.org-node-leadership {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 215, 54, 0.1));
+}
+
+.org-role {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--yellow);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+}
+
+.org-node strong {
+  display: block;
+  color: var(--white);
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.org-node small {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
 .info-card,
 .feature-card {
   position: relative;
