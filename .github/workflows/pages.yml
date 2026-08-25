@@ -28,7 +28,7 @@ jobs:
         run: echo "Static site ready for GitHub Pages"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: .
 
